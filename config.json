@@ -1,4 +1,9 @@
 {
+  "site": {
+    "title": "Berk Altıok - Full Stack Developer",
+    "desc": "Bu Berk kim? Neyin nesidir? Neler yapar? Hayatı nasıl? Hakkımda merak edilebilecek bir çok şeyin bu içi dolu turşucuk sayfada bulabilirsiniz.",
+    "favicon": ""
+  },
   "about": {
     "top": {
       "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
