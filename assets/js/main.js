@@ -12,9 +12,10 @@ const router = new VueRouter({
 
 const app = new Vue({
   router,
-  data () {
+  data() {
     return {
-      config: {}
+      config: {},
+      year: new Date().getFullYear()
     }
   },
   beforeCreate() {

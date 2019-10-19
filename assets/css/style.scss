@@ -4,8 +4,14 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .about {
-  margin-top: 80px;
+  padding-top: 80px;
 
   &__top {
     display: flex;
@@ -121,6 +127,67 @@ body {
         width: 100%;
         height: 1px;
         background: #E3E3E3;
+      }
+    }
+  }
+}
+
+.footer {
+  margin-top: auto;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__copy {
+    font-size: 16px;
+    color: #626262;
+    flex: 2;
+
+    strong {
+      margin-left: 4px;
+    }
+  }
+  &__love {
+    flex: 1;
+    color: #626262;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      color: #f72848;
+      font-weight: 800;
+      margin: 0 8px;
+      display: inline-flex;
+      align-items: center;
+
+      i {
+        font-size: 12px;
+        margin-right: 3px;
+      }
+    }
+    a {
+      color: #626262;
+      text-decoration: none;
+      outline: none;
+    }
+  }
+  &__links {
+    flex: 2;
+    justify-content: flex-end;
+    display: flex;
+
+    a {
+      margin-left: 20px;
+      color: #626262;
+      text-decoration: none;
+      outline: none;
+      transition: all .4s;
+      
+      &:hover {
+        color: #000;
       }
     }
   }

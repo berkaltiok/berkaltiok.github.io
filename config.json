@@ -29,5 +29,13 @@
       {"url": "#6", "icon": "dribbble"},
       {"url": "#7", "icon": "behance"}
     ]
+  },
+  "footer": {
+    "copy": "Berk Altıok",
+    "links": [
+      {"url": "#", "text": "Behance"},
+      {"url": "#", "text": "Github"},
+      {"url": "#", "text": "Dribbble"}
+    ]
   }
 }

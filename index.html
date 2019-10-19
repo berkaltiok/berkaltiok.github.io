@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
@@ -33,6 +33,13 @@
             <a v-for="item in this.config.about.social" :href="item.url"><i :class="'fab fa-'+item.icon"></i></a>
             <span></span>
           </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer__copy">Copyright &copy; {{ new Date().getFullYear() }} <strong>{{ this.config.footer.copy }}</strong></div>
+        <div class="footer__love">We <span><i class="fas fa-heart"></i> love</span> <a target="_blank" href="https://vuejs.org">VueJS</a></div>
+        <div class="footer__links">
+          <a v-for="item in this.config.footer.links" :href="item.url">{{ item.text }}</a>
         </div>
       </div>
 
