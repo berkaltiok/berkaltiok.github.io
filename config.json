@@ -1,0 +1,32 @@
+{
+  "about": {
+    "top": {
+      "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
+      "buttons": [
+        {
+          "url": "#",
+          "text": "CV"
+        },
+        {
+          "url": "#",
+          "text": "Hire Me",
+          "class": "yellow"
+        }
+      ]
+    },
+    "content": {
+      "title": "I’m berk,",
+      "subtitle": "Full Stack Developer, from Ankara.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    "social": [
+      {"url": "#1", "icon": "twitter"},
+      {"url": "#2", "icon": "facebook-f"},
+      {"url": "#3", "icon": "github"},
+      {"url": "#4", "icon": "linkedin-in"},
+      {"url": "#5", "icon": "instagram"},
+      {"url": "#6", "icon": "dribbble"},
+      {"url": "#7", "icon": "behance"}
+    ]
+  }
+}

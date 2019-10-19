@@ -11,5 +11,15 @@ const router = new VueRouter({
 });
 
 const app = new Vue({
-  router
+  router,
+  data () {
+    return {
+      config: {}
+    }
+  },
+  beforeCreate() {
+    axios.get('config.json').then(r => {
+      this.config = JSON.parse(JSON.stringify(r.data));
+    });
+  }
 }).$mount('#app');
