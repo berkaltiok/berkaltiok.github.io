@@ -30,7 +30,7 @@
           <div class="about__content-subtitle">{{ this.config.about.content.subtitle }}</div>
           <div class="about__content-info">{{ this.config.about.content.info }}</div>
           <div class="about__content-icons">
-            <a v-for="item in this.config.about.social" :href="item.url"><i :class="'fab fa-'+item.icon"></i></a>
+            <a target="_blank" v-for="item in this.config.about.social" :href="item.url"><i :class="'fab fa-'+item.icon"></i></a>
             <span></span>
           </div>
         </div>
@@ -39,7 +39,7 @@
         <div class="footer__copy">Copyright &copy; {{ new Date().getFullYear() }} <strong>{{ this.config.footer.copy }}</strong></div>
         <div class="footer__love">We <span><i class="fas fa-heart"></i> love</span> <a target="_blank" href="https://vuejs.org">VueJS</a></div>
         <div class="footer__links">
-          <a v-for="item in this.config.footer.links" :href="item.url">{{ item.text }}</a>
+          <a target="_blank" v-for="item in this.config.footer.links" :href="item.url">{{ item.text }}</a>
         </div>
       </div>
 
