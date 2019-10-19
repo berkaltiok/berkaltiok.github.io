@@ -1,3 +1,101 @@
 @import url(fontawesome.min.css);
+body {
+  font-family: 'Nunito Sans', sans-serif; }
+
+.about {
+  margin-top: 80px; }
+  .about__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .about__top-image {
+      height: 128px;
+      width: 128px;
+      border-radius: 100px;
+      user-select: none;
+      pointer-events: none; }
+    .about__top-button {
+      border-radius: 6px;
+      height: 60px;
+      min-width: 160px;
+      padding: 0 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+      background: #F7F7F7;
+      border: 1px solid #ededed;
+      margin-left: 30px;
+      font-size: 24px;
+      font-weight: 600;
+      outline: none !important;
+      transition: all .4s;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+      .about__top-button:hover {
+        background: #f2f2f2; }
+      .about__top-button:first-child {
+        margin-left: 0; }
+      .about__top-button\:yellow {
+        background: #FFE300;
+        border: 1px solid #ebd100; }
+        .about__top-button\:yellow:hover {
+          background: #f5da00; }
+  .about__content {
+    margin-top: 40px;
+    position: relative; }
+    .about__content-name {
+      display: inline;
+      letter-spacing: 4px;
+      font-size: 12px;
+      line-height: 16px;
+      color: #979797;
+      font-weight: bolder;
+      position: absolute;
+      transform: rotate(-90deg);
+      transform-origin: 0 0;
+      top: 42px;
+      left: -38px;
+      user-select: none; }
+    .about__content-title {
+      font-size: 48px;
+      color: #999999;
+      line-height: 64px;
+      font-weight: 600; }
+    .about__content-subtitle {
+      font-size: 48px;
+      color: #000;
+      line-height: 64px;
+      font-weight: 300; }
+    .about__content-info {
+      font-size: 24px;
+      line-height: 36px;
+      color: #000;
+      margin-top: 24px; }
+    .about__content-icons {
+      display: flex;
+      align-items: center;
+      margin-top: 40px; }
+      .about__content-icons a {
+        min-width: 28px;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+        text-decoration: none;
+        color: #404040;
+        transition: all .4s; }
+        .about__content-icons a:hover {
+          color: #000; }
+        .about__content-icons a i {
+          font-size: 28px; }
+      .about__content-icons span {
+        flex: 1;
+        width: 100%;
+        height: 1px;
+        background: #E3E3E3; }
 
 /*# sourceMappingURL=style.css.map */

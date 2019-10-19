@@ -1,1 +1,126 @@
 @import "fontawesome.min.css";
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.about {
+  margin-top: 80px;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-image {
+      height: 128px;
+      width: 128px;
+      border-radius: 100px;
+      user-select: none;
+      pointer-events: none
+    }
+    &-button {
+      border-radius: 6px;
+      height: 60px;
+      min-width: 160px;
+      padding: 0 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+      background: #F7F7F7;
+      border: 1px solid darken(#F7F7F7, 4%);
+      margin-left: 30px;
+      font-size: 24px;
+      font-weight: 600;
+      outline: none !important;
+      transition: all .4s;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      &:hover {
+        background: darken(#F7F7F7, 2%);
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      &\:yellow {
+        background: #FFE300;
+        border: 1px solid darken(#FFE300, 4%);
+
+        &:hover {
+          background: darken(#FFE300, 2%);
+        }
+      }
+    }
+  }
+  &__content {
+    margin-top: 40px;
+    position: relative;
+
+    &-name {
+      display: inline;
+      letter-spacing: 4px;
+      font-size: 12px;
+      line-height: 16px;
+      color: #979797;
+      font-weight: bolder;
+      position: absolute;
+      transform: rotate(-90deg);
+      transform-origin: 0 0;
+      top: 42px;
+      left: -38px;
+      user-select: none;
+    }
+    &-title {
+      font-size: 48px;
+      color: #999999;
+      line-height: 64px;
+      font-weight: 600;
+    }
+    &-subtitle {
+      font-size: 48px;
+      color: #000;
+      line-height: 64px;
+      font-weight: 300;
+    }
+    &-info {
+      font-size: 24px;
+      line-height: 36px;
+      color: #000;
+      margin-top: 24px;
+    }
+    &-icons {
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+
+      a {
+        min-width: 28px;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+        text-decoration: none;
+        color: #404040;
+        transition: all .4s;
+
+        &:hover {
+          color: #000;
+        }
+        i {
+          font-size: 28px;
+        }
+      }
+      span {
+        flex: 1;
+        width: 100%;
+        height: 1px;
+        background: #E3E3E3;
+      }
+    }
+  }
+}
