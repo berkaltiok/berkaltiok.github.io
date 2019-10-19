@@ -5,12 +5,13 @@
       "buttons": [
         {
           "url": "#",
-          "text": "CV"
+          "text": "CV",
+          "color": "gray"
         },
         {
           "url": "#",
           "text": "Hire Me",
-          "class": "yellow"
+          "color": "yellow"
         }
       ]
     },

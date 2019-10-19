@@ -19,10 +19,9 @@
     <div id="app" class="container">
       <div class="about">
         <div class="about__top">
-          <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="Photo" class="about__top-image">
+          <img :src="this.config.about.top.avatar" alt="Photo" class="about__top-image">
           <div class="d-flex">
-            <a href="#" class="about__top-button">CV</a>
-            <a href="#" class="about__top-button about__top-button:yellow">Hire Me</a>
+            <a v-for="item in this.config.about.top.buttons" :href="item.url" :class="['about__top-button', 'about__top-button:'+item.color]">{{ item.text }}</a>
           </div>
         </div>
         <div class="about__content">
