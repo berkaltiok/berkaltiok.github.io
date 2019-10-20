@@ -38,6 +38,7 @@
           </div>
         </div>
       </div>
+      <router-view></router-view>
       <div class="footer">
         <div class="footer__copy">Copyright &copy; {{ new Date().getFullYear() }} <strong>{{ this.config.footer.copy }}</strong></div>
         <div class="footer__love">We <span><i class="fas fa-heart"></i> love</span> <a target="_blank" href="https://vuejs.org">VueJS</a></div>
@@ -45,8 +46,6 @@
           <a target="_blank" v-for="item in this.config.footer.links" :href="item.url">{{ item.text }}</a>
         </div>
       </div>
-
-      <router-view></router-view>
     </div>
 
     <script src="assets/js/jquery-3.4.1.min.js"></script>

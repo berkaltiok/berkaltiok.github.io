@@ -14,8 +14,8 @@ const app = new Vue({
   router,
   data() {
     return {
-      config: null,
-      year: new Date().getFullYear()
+      load: false,
+      config: null
     }
   },
   beforeCreate() {
