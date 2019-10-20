@@ -138,7 +138,96 @@ body {
     }
   }
 }
+.portfolio {
+  margin-bottom: 90px;
+  position: relative;
 
+  &__name {
+    display: inline;
+    letter-spacing: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #979797;
+    font-weight: bolder;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    top: 62px;
+    left: -42px;
+    user-select: none;
+    text-transform: uppercase;
+  }
+  &__item {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+
+    &:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+    &:before {
+      content: "";
+      width: 100%;
+      height: 50%;
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      bottom: 0;
+      background-image: linear-gradient(to bottom, transparent, black);
+      backface-visibility: hidden;
+      transition: .4s;
+    }
+    &:hover:before {
+      height: 60%;
+    }
+    &-tag {
+      display: inline-flex;
+      width: fit-content;
+      font-size: 14px;
+      border-radius: 100px;
+      color: #0f0f0f;
+      height: 28px;
+      padding: 0 16px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: auto;
+
+      @each $name, $colorCode in $colors {
+        &\:#{$name} {
+          background: $colorCode;
+          border-color: darken($colorCode, 4%);
+        }
+      }
+    }
+    &-content {
+      position: absolute;
+      z-index: 2;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 40px;
+    }
+    &-title {
+      font-size: 28px;
+      color: #fff;
+      font-weight: bold;
+    }
+    img {
+      position: absolute;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+    }
+  }
+}
 .footer {
   margin-top: auto;
   padding-bottom: 40px;

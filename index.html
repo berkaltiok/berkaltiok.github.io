@@ -42,7 +42,20 @@
             </div>
           </div>
         </div>
-        <router-view></router-view>
+        <div class="portfolio">
+          <div class="portfolio__name">Works</div>
+          <div class="row">
+            <div v-for="(item, index) in this.config.portfolio" class="col-md-4">
+              <div class="portfolio__item">
+                <img :src="item.thumbnail" :alt="item.title">
+                <div class="portfolio__item-content">
+                  <div :class="['portfolio__item-tag', 'portfolio__item-tag:' + item.color]">{{ item.tag }}</div>
+                  <div class="portfolio__item-title">{{ item.title }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="footer">
           <div class="footer__copy">Copyright &copy; {{ new Date().getFullYear() }} <strong>{{ this.config.footer.copy }}</strong></div>
           <div class="footer__love">We <span><i class="fas fa-heart"></i> love</span> <a target="_blank" href="https://vuejs.org">VueJS</a></div>

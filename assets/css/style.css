@@ -115,6 +115,87 @@ body {
         height: 1px;
         background: #E3E3E3; }
 
+.portfolio {
+  margin-bottom: 90px;
+  position: relative; }
+  .portfolio__name {
+    display: inline;
+    letter-spacing: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #979797;
+    font-weight: bolder;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    top: 62px;
+    left: -42px;
+    user-select: none;
+    text-transform: uppercase; }
+  .portfolio__item {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    overflow: hidden; }
+    .portfolio__item:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%; }
+    .portfolio__item:before {
+      content: "";
+      width: 100%;
+      height: 50%;
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      bottom: 0;
+      background-image: linear-gradient(to bottom, transparent, black);
+      backface-visibility: hidden;
+      transition: .4s; }
+    .portfolio__item:hover:before {
+      height: 60%; }
+    .portfolio__item-tag {
+      display: inline-flex;
+      width: fit-content;
+      font-size: 14px;
+      border-radius: 100px;
+      color: #0f0f0f;
+      height: 28px;
+      padding: 0 16px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: auto; }
+      .portfolio__item-tag\:yellow {
+        background: #FFE300;
+        border-color: #ebd100; }
+      .portfolio__item-tag\:green {
+        background: #01e675;
+        border-color: #01d26b; }
+      .portfolio__item-tag\:darkBlue {
+        background: #273443;
+        border-color: #1f2a36; }
+    .portfolio__item-content {
+      position: absolute;
+      z-index: 2;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 40px; }
+    .portfolio__item-title {
+      font-size: 28px;
+      color: #fff;
+      font-weight: bold; }
+    .portfolio__item img {
+      position: absolute;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      width: 100%; }
+
 .footer {
   margin-top: auto;
   padding-bottom: 40px;

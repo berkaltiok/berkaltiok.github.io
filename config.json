@@ -33,6 +33,48 @@
       {"url": "https://www.behance.net/berkpw", "icon": "behance"}
     ]
   },
+  "portfolio": [
+    {
+      "thumbnail": "https://picsum.photos/500",
+      "title": "lorem impsum",
+      "tag": "Ui/Ux Designing",
+      "color": "yellow",
+      "images": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "thumbnail": "https://picsum.photos/500",
+      "title": "Motivation Is The First Step To Success",
+      "tag": "Ui/Ux Designing",
+      "color": "yellow",
+      "images": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "thumbnail": "https://picsum.photos/500",
+      "title": "Motivation Is The First Step To Success",
+      "tag": "Ui/Ux Designing",
+      "color": "yellow",
+      "images": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "thumbnail": "https://picsum.photos/500",
+      "title": "Motivation Is The First Step To Success",
+      "tag": "Ui/Ux Designing",
+      "color": "yellow",
+      "images": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    }
+  ],
   "footer": {
     "copy": "Berk Altıok",
     "links": [
