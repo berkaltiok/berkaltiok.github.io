@@ -50,6 +50,16 @@ body {
         border: 1px solid #ebd100; }
         .about__top-button\:yellow:hover {
           background: #f5da00; }
+      .about__top-button\:green {
+        background: #01e675;
+        border: 1px solid #01d26b; }
+        .about__top-button\:green:hover {
+          background: #01dc70; }
+      .about__top-button\:darkBlue {
+        background: #273443;
+        border: 1px solid #1f2a36; }
+        .about__top-button\:darkBlue:hover {
+          background: #232f3d; }
   .about__content {
     margin-top: 40px;
     position: relative; }

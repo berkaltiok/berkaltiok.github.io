@@ -9,38 +9,35 @@
       "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
       "buttons": [
         {
-          "url": "#",
-          "text": "CV",
+          "url": "https://github.com/berkpw/berkpw.github.io",
+          "text": "This Repo",
           "color": "gray"
         },
         {
-          "url": "#",
+          "url": "http://api.whatsapp.com/send?phone=905345829224",
           "text": "Hire Me",
           "color": "yellow"
         }
       ]
     },
     "content": {
-      "title": "I’m berk,",
+      "title": "I’m Berk,",
       "subtitle": "Full Stack Developer, from Ankara.",
       "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     "social": [
-      {"url": "#1", "icon": "twitter"},
-      {"url": "#2", "icon": "facebook-f"},
-      {"url": "#3", "icon": "github"},
-      {"url": "#4", "icon": "linkedin-in"},
-      {"url": "#5", "icon": "instagram"},
-      {"url": "#6", "icon": "dribbble"},
-      {"url": "#7", "icon": "behance"}
+      {"url": "https://berk.pw", "type": "fas", "icon": "rss"},
+      {"url": "https://twitter.com/berkpw", "icon": "twitter"},
+      {"url": "https://github.com/berkpw", "icon": "github"},
+      {"url": "https://instagram.com/berk.pw", "icon": "instagram"},
+      {"url": "https://www.behance.net/berkpw", "icon": "behance"}
     ]
   },
   "footer": {
     "copy": "Berk Altıok",
     "links": [
-      {"url": "#", "text": "Behance"},
-      {"url": "#", "text": "Github"},
-      {"url": "#", "text": "Dribbble"}
+      {"url": "https://berk.pw", "text": "Blog"},
+      {"url": "https://github.com/berkpw", "text": "Github"}
     ]
   }
 }

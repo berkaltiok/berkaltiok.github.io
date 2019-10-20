@@ -1,4 +1,9 @@
 @import "fontawesome.min.css";
+$colors: (
+  "yellow": #FFE300,
+  "green": #01e675,
+  "darkBlue": #273443
+);
 
 body {
   font-family: 'Nunito Sans', sans-serif;
@@ -53,12 +58,14 @@ body {
       &:first-child {
         margin-left: 0;
       }
-      &\:yellow {
-        background: #FFE300;
-        border: 1px solid darken(#FFE300, 4%);
+      @each $name, $colorCode in $colors {
+        &\:#{$name} {
+          background: $colorCode;
+          border: 1px solid darken($colorCode, 4%);
 
-        &:hover {
-          background: darken(#FFE300, 2%);
+          &:hover {
+            background: darken($colorCode, 2%);
+          }
         }
       }
     }
