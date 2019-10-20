@@ -4,14 +4,14 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-#app {
+.main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
 .about {
   padding-top: 80px;
+  margin-bottom: 140px;
 
   &__top {
     display: flex;
@@ -190,5 +190,17 @@ body {
         color: #000;
       }
     }
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  svg path {
+    color: #777777 !important;
+    fill: currentColor !important;
   }
 }
