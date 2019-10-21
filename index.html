@@ -70,7 +70,8 @@
           </div>
         </div>
         <div class="view__nav">
-
+          <div class="view__nav-item view__nav-left" v-if="this.viewActive !== 0" @click="changeActive('left')"><i class="far fa-chevron-left"></i></div>
+          <div class="view__nav-item view__nav-right" v-if="this.viewActive+1 !== this.view.images.length" @click="changeActive('right')"><i class="far fa-chevron-right"></i></div>
         </div>
         <div class="view__footer">
           <div class="view__footer-info">
