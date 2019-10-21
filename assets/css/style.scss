@@ -300,3 +300,11 @@ body {
     fill: currentColor !important;
   }
 }
+.view {
+  height: 100vh;
+  width: 100%;
+  background: #eee;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+}

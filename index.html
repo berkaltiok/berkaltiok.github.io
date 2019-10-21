@@ -16,14 +16,13 @@
   </head>
   <body>
     <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
-    <script src="https://unpkg.com/vue-router/dist/vue-router.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <div id="app">
       <div class="loader" v-show="!load">
         <svg height="60px" width="60px" version="1.1" viewBox="0 0 50 50" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><path d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z" fill="#000" transform="rotate(64.6404 25 25)"><animateTransform attributeName="transform" attributeType="xml" dur="0.6s" from="0 25 25" repeatCount="indefinite" to="360 25 25" type="rotate"></animateTransform></path></svg>
       </div>
-      <div class="container main" v-if="load" v-show="load" style="display: none;">
+      <div class="container main" v-if="load" v-show="!view">
         <div class="about">
           <div class="about__top">
             <img :src="this.config.about.top.avatar" alt="Photo" class="about__top-image">
@@ -64,6 +63,7 @@
           </div>
         </div>
       </div>
+      <div class="view" v-show="view"></div>
     </div>
 
     <script src="assets/js/jquery-3.4.1.min.js"></script>
