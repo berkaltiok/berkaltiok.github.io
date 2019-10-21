@@ -40,38 +40,14 @@
       "tag": "Ui/Ux Designing",
       "color": "yellow",
       "images": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
-      ]
-    },
-    {
-      "thumbnail": "https://picsum.photos/500",
-      "title": "Motivation Is The First Step To Success",
-      "tag": "Ui/Ux Designing",
-      "color": "yellow",
-      "images": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
-      ]
-    },
-    {
-      "thumbnail": "https://picsum.photos/500",
-      "title": "Motivation Is The First Step To Success",
-      "tag": "Ui/Ux Designing",
-      "color": "yellow",
-      "images": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
-      ]
-    },
-    {
-      "thumbnail": "https://picsum.photos/500",
-      "title": "Motivation Is The First Step To Success",
-      "tag": "Ui/Ux Designing",
-      "color": "yellow",
-      "images": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        {
+          "image": "https://i.hizliresim.com/1p3pMD.png",
+          "name": "Ürün Sayfası"
+        },
+        {
+          "image": "https://i.hizliresim.com/LvXv11.png",
+          "name": "Anasayfa Sayfası"
+        }
       ]
     }
   ],

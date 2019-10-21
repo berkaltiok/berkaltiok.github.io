@@ -63,7 +63,39 @@
           </div>
         </div>
       </div>
-      <div class="view" v-show="view"></div>
+      <div class="view" v-if="view" v-show="view" style="display: none;">
+        <div class="view__pages">
+          <div v-for="(item, index) in this.view.images" class="view__pages-item"  v-show="index === viewActive">
+            <img :src="item.image" :alt="item.name">
+          </div>
+        </div>
+        <div class="view__nav">
+
+        </div>
+        <div class="view__footer">
+          <div class="view__footer-info">
+            <div class="view__footer-info:title">
+              {{ this.view.title }}
+              <svg width="16" height="16" viewBox="0 0 24 24">
+                <g>
+                  <path fill="#FFFFFF" id="navigateright-a"
+                        d="M13.1485479,12.3531924 L13.1585532,12.3531924 L13.1485479,12.3531924 Z M10.0009007,16.999369 C9.7357619,16.999369 9.47062315,16.895365 9.27352,16.6873571 C8.89432155,16.2863419 8.91133045,15.6533178 9.31254042,15.2733034 L12.7743521,11.999179 L9.31254042,8.72605459 C8.91133045,8.34604015 8.89432155,7.71301609 9.27352,7.31200086 C9.65572001,6.91098562 10.2880509,6.89498501 10.6882604,7.27299937 L14.5442784,10.9191379 C15.1485946,11.5241609 15.1485946,12.4751971 14.5632883,13.0602193 L10.6882604,16.7263586 C10.4951593,16.9093656 10.24803,16.999369 10.0009007,16.999369 Z"></path>
+                </g>
+              </svg>
+              {{ this.view.images[this.viewActive].name }}
+            </div>
+            <div class="view__footer-info:desc">
+              {{ this.viewActive + 1 }} of {{ this.view.images.length }} pages
+            </div>
+          </div>
+          <button class="view__footer-button"><svg width="16" height="12">
+              <g fill="none" fill-rule="evenodd">
+                <path d="M-1-3h18v18H-1z"></path>
+                <path d="M10 0l6 5.5-6 5.5V8c-4-.08-7.917 1.2-10 4 .833-4 4.333-8 10-9V0z" fill="#FFF"></path>
+              </g>
+            </svg> Share</button>
+        </div>
+      </div>
     </div>
 
     <script src="assets/js/jquery-3.4.1.min.js"></script>

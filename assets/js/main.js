@@ -3,13 +3,13 @@ const app = new Vue({
     return {
       load: false,
       config: "",
-      view: false
+      view: false,
+      viewActive: 0
     }
   },
   methods: {
     openItem: function(item, index) {
-      this.view = index.toString();
-      console.log(item, index)
+      this.view = item;
     }
   },
   beforeCreate() {
