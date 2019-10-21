@@ -16,7 +16,7 @@ body {
 }
 .about {
   padding-top: 80px;
-  margin-bottom: 140px;
+  margin-bottom: 100px;
 
   &__top {
     display: flex;
@@ -89,9 +89,12 @@ body {
       user-select: none;
     }
     &-title {
+      background: linear-gradient(to top, rgba(255, 227, 0, 0.7) 40%, transparent 40%);
+      display: inline-block;
       font-size: 48px;
       color: #717171;
-      line-height: 64px;
+      line-height: 52px;
+      margin-bottom: 6px;
       font-weight: 700;
     }
     &-subtitle {
@@ -307,6 +310,27 @@ body {
   z-index: 2;
   position: relative;
 
+  &__close {
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    opacity: .3;
+    background: #000;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 22px;
+    transition: all .4s;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
   &__pages {
     margin-bottom: 68px;
 

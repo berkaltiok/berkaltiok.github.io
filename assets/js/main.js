@@ -4,13 +4,16 @@ const app = new Vue({
       load: false,
       config: "",
       view: false,
-      viewActive: 0
+      viewActive: 0,
+      pageTop: 0
     }
   },
   methods: {
     openItem: function(item, index) {
+      this.pageTop = window.pageYOffset || document.documentElement.scrollTop;
       window.scrollTo(0,0);
       this.view = item;
+      this.viewActive = 0;
     },
     changeActive: function (action) {
       if (action === 'left') {
@@ -21,7 +24,19 @@ const app = new Vue({
         if (this.viewActive+1 === this.view.images.length) return false;
         this.viewActive += 1
       }
+    },
+    close: function () {
+      window.scrollTo(0, this.pageTop);
+      this.view = false;
     }
+  },
+  mounted() {
+    let that = this;
+    $(document).bind('keyup', function(event) {
+      if (event.keyCode === 27) that.close();
+      if (event.keyCode === 37) that.changeActive('left');
+      if (event.keyCode === 39) that.changeActive('right');
+    });
   },
   beforeCreate() {
     axios.get('config.json').then(r => {

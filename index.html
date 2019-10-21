@@ -64,6 +64,7 @@
         </div>
       </div>
       <div class="view" v-if="view" v-show="view" style="display: none;">
+        <div class="view__close" @click="this.close"><i class="far fa-times"></i></div>
         <div class="view__pages">
           <div v-for="(item, index) in this.view.images" class="view__pages-item"  v-show="index === viewActive">
             <img :src="item.image" :alt="item.name">

@@ -6,7 +6,7 @@
   },
   "about": {
     "top": {
-      "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
+      "avatar": "https://avatars0.githubusercontent.com/u/17373485",
       "buttons": [
         {
           "url": "https://github.com/berkpw/berkpw.github.io",
@@ -40,6 +40,14 @@
       "tag": "Ui/Ux Designing",
       "color": "yellow",
       "images": [
+        {
+          "image": "https://i.hizliresim.com/1p3pMD.png",
+          "name": "Ürün Sayfası"
+        },
+        {
+          "image": "https://i.hizliresim.com/LvXv11.png",
+          "name": "Anasayfa Sayfası"
+        },
         {
           "image": "https://i.hizliresim.com/1p3pMD.png",
           "name": "Ürün Sayfası"
