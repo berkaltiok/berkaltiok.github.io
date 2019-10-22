@@ -42,9 +42,9 @@ const app = new Vue({
     axios.get('config.json').then(r => {
       this.config = JSON.parse(JSON.stringify(r.data));
     }).then(() => {
-      document.title = this.config.site.title;
-      $('meta[name="description"]').attr("content", this.config.site.desc);
-      $('link[rel="shortcut icon"]').attr("href", this.config.site.favicon);
+      document.title = this.config.name;
+      $('meta[name="description"]').attr("content", this.config.description);
+      $('link[rel="shortcut icon"]').attr("href", this.config.icons[0].src);
       this.load = true;
     });
   }

@@ -1,9 +1,18 @@
 {
-  "site": {
-    "title": "Berk Altıok - Full Stack Developer",
-    "desc": "Bu Berk kim? Neyin nesidir? Neler yapar? Hayatı nasıl? Hakkımda merak edilebilecek bir çok şeyin bu içi dolu turşucuk sayfada bulabilirsiniz.",
-    "favicon": ""
-  },
+  "name": "Berk Altıok - Full Stack Developer",
+  "description": "Bu Berk kim? Neyin nesidir? Neler yapar? Hayatı nasıl? Hakkımda merak edilebilecek bir çok şeyin bu içi dolu turşucuk sayfada bulabilirsiniz.",
+  "short_name": "Berk Altıok",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "https://avatars0.githubusercontent.com/u/17373485",
+      "sizes": "100x100",
+      "type": "image/png"
+    }
+  ],
   "about": {
     "top": {
       "avatar": "https://avatars0.githubusercontent.com/u/17373485",
