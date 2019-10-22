@@ -2,7 +2,7 @@
   "name": "Berk Altıok - Full Stack Developer",
   "description": "Bu Berk kim? Neyin nesidir? Neler yapar? Hayatı nasıl? Hakkımda merak edilebilecek bir çok şeyin bu içi dolu turşucuk sayfada bulabilirsiniz.",
   "short_name": "Berk Altıok",
-  "start_url": ".",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",
