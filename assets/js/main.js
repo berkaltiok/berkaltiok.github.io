@@ -44,7 +44,7 @@ const app = new Vue({
     }).then(() => {
       document.title = this.config.name;
       $('meta[name="description"]').attr("content", this.config.description);
-      $('link[rel="shortcut icon"]').attr("href", this.config.icons[0].src);
+      $('link[rel="shortcut icon"], link[rel="apple-touch-icon"]').attr("href", this.config.icons[0].src);
       this.load = true;
     });
   }
