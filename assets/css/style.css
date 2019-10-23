@@ -1,4 +1,7 @@
 @import url(fontawesome.min.css);
+html, body {
+  background: #ffffff; }
+
 body {
   font-family: 'Nunito Sans', sans-serif; }
 
