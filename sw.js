@@ -1,8 +1,8 @@
 const cacheName = 'portfolio-pwa';
 const filesToCache = [
   'index.html',
-  'assets/css/style.css',
-  'assets/js/main.js'
+  'assets/css/**',
+  'assets/js/**'
 ];
 
 self.addEventListener('install', function(e) {
