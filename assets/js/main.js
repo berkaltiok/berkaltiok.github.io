@@ -60,15 +60,18 @@ window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
   showAddToHomeScreen();
+  alert(9);
 });
 
 function showAddToHomeScreen() {
+  alert(1);
   var a2hsBtn = document.querySelector(".ad2hs-prompt");
   a2hsBtn.style.display = "block";
   a2hsBtn.addEventListener("click", addToHomeScreen);
 }
 
 function addToHomeScreen() {
+  alert(2);
   var a2hsBtn = document.querySelector(".ad2hs-prompt");  // hide our user interface that shows our A2HS button
   a2hsBtn.style.display = 'none';
   deferredPrompt.prompt();
