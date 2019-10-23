@@ -530,5 +530,8 @@ body {
     &__copy {
       margin-bottom: 12px;
     }
+    &__links a:first-child {
+      margin-left: 0;
+    }
   }
 }

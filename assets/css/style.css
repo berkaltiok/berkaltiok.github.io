@@ -422,4 +422,6 @@ body {
     .footer__love {
       display: none; }
     .footer__copy {
-      margin-bottom: 12px; } }
+      margin-bottom: 12px; }
+    .footer__links a:first-child {
+      margin-left: 0; } }
