@@ -54,10 +54,14 @@ const app = new Vue({
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').then(r => console.log("[SW] Is activated."));
 }
+const isIos = () => {
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  return /iphone|ipad|ipod/.test( userAgent );
+}
+// Detects if device is in standalone mode
+const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
 
-let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-  showInstallPromotion();
-});
+// Checks if should display install popup notification:
+if (isIos() && !isInStandaloneMode()) {
+  this.setState({ showInstallMessage: true });
+}
