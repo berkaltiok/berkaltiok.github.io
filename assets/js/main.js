@@ -51,5 +51,5 @@ const app = new Vue({
 }).$mount('#app');
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').then(r => console.log("RUN!"));
+  navigator.serviceWorker.register('../../sw.js').then(r => console.log("RUN!"));
 }
