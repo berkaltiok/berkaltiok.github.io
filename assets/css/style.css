@@ -287,13 +287,13 @@ body {
     .view__pages-item img {
       width: 100%; }
   .view__footer {
-    padding: 0 24px;
+    padding: 14px 24px;
     background: #15181f;
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: 2000;
-    height: 68px;
+    min-height: 68px;
     width: 100%;
     box-shadow: 0 -1px 20px 0 rgba(0, 0, 0, 0.1);
     transition: transform .25s ease-in-out,-webkit-transform .25s ease-in-out;
