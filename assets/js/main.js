@@ -50,6 +50,11 @@ const app = new Vue({
   }
 }).$mount('#app');
 
+// PWA Code
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').then(r => console.log("RUN!"));
 }
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  this.deferredPrompt = e;
+});
