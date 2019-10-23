@@ -6,13 +6,15 @@
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "https://1.gravatar.com/avatar/d12fff99a352be083729d68e1673265a?s=144",
-      "sizes": "144x144",
+      "src": "assets/images/icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
+
   "about": {
     "top": {
       "avatar": "https://avatars0.githubusercontent.com/u/17373485",

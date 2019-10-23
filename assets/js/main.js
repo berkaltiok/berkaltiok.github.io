@@ -52,9 +52,12 @@ const app = new Vue({
 
 // PWA Code
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').then(r => console.log("RUN!"));
+  navigator.serviceWorker.register('sw.js').then(r => console.log("[SW] Is activated."));
 }
+
+let deferredPrompt;
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
-  this.deferredPrompt = e;
+  deferredPrompt = e;
+  showInstallPromotion();
 });
