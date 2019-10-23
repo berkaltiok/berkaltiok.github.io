@@ -39,7 +39,7 @@ const app = new Vue({
     });
   },
   beforeCreate() {
-    axios.get('config.json').then(r => {
+    axios.get('./config.json').then(r => {
       this.config = JSON.parse(JSON.stringify(r.data));
     }).then(() => {
       document.title = this.config.name;
@@ -51,5 +51,5 @@ const app = new Vue({
 }).$mount('#app');
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').then(r => ());
+  navigator.serviceWorker.register('./sw.js').then(r => console.log("RUN!"));
 }
