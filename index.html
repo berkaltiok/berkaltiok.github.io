@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
-    <link rel="manifest" href="/config.json">
+    <link rel="manifest" href="config.json">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Berk Altıok</title>
@@ -28,7 +28,7 @@
         <div class="about">
           <div class="about__top">
             <img :src="this.config.about.top.avatar" alt="Photo" class="about__top-image">
-            <div class="d-flex">
+            <div class="about__top-buttons">
               <a target="_blank" v-for="item in this.config.about.top.buttons" :href="item.url" :class="['about__top-button', 'about__top-button:'+item.color]">{{ item.text }}</a>
             </div>
           </div>

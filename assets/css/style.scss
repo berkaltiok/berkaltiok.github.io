@@ -71,6 +71,9 @@ body {
         }
       }
     }
+    &-buttons {
+      display: flex;
+    }
   }
   &__content {
     margin-top: 40px;
@@ -94,7 +97,7 @@ body {
       background: linear-gradient(to top, rgba(255, 227, 0, 0.7) 40%, transparent 40%);
       display: inline-block;
       font-size: 48px;
-      color: #717171;
+      color: #4e4e4e;
       line-height: 52px;
       margin-bottom: 6px;
       font-weight: 700;
@@ -435,6 +438,97 @@ body {
       i {
         margin-right: 17px;
       }
+    }
+  }
+}
+
+@media (max-width:576px) {
+  .about {
+    margin-bottom: 24px;
+    padding-top: 15px;
+
+    &__content {
+      &-name {
+        display: block;
+        position: unset;
+        transform: unset;
+      }
+      &-title {
+        font-size: 38px;
+        background: none;
+      }
+      &-subtitle {
+        font-size: 36px;
+        line-height: 48px;
+      }
+      &-info {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 8px;
+      }
+      &-icons {
+        justify-content: space-between;
+        margin-top: 30px;
+        border-top: 1px solid #E3E3E3;
+        border-bottom: 1px solid #E3E3E3;
+        padding: 18px 6px;
+
+        a {
+          margin-right: 0;
+        }
+        span {
+          display: none;
+        }
+      }
+    }
+    &__top {
+      &-image {
+        height: 120px;
+        width: 120px;
+      }
+      &-button {
+        font-size: 18px;
+        width: 150px;
+        min-width: 150px;
+        padding: 0 14px;
+        height: 46px;
+        margin: 4px 0;
+      }
+      &-buttons {
+        align-items: flex-end;
+        flex-direction: column-reverse;
+      }
+    }
+  }
+  .portfolio {
+    &__name {
+      display: block;
+      position: unset;
+      transform: unset;
+      margin-bottom: 18px;
+    }
+    &__item {
+      &-content {
+        padding: 24px 15px;
+      }
+      &-tag {
+        font-size: 10px;
+        height: 26px;
+      }
+      &-title {
+        font-size: 24px;
+      }
+    }
+  }
+  .footer {
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+    &__love {
+      display: none;
+    }
+    &__copy {
+      margin-bottom: 12px;
     }
   }
 }
