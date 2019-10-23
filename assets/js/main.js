@@ -9,7 +9,7 @@ const app = new Vue({
     }
   },
   methods: {
-    openItem: function(item, index) {
+    openItem: function(item) {
       this.pageTop = window.pageYOffset || document.documentElement.scrollTop;
       window.scrollTo(0,0);
       this.view = item;
@@ -52,35 +52,5 @@ const app = new Vue({
 
 // PWA Code
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').then(r => console.log("[SW] Is activated."));
-}
-
-let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-  showAddToHomeScreen();
-  alert(9);
-});
-
-function showAddToHomeScreen() {
-  alert(1);
-  var a2hsBtn = document.querySelector(".ad2hs-prompt");
-  a2hsBtn.style.display = "block";
-  a2hsBtn.addEventListener("click", addToHomeScreen);
-}
-
-function addToHomeScreen() {
-  alert(2);
-  var a2hsBtn = document.querySelector(".ad2hs-prompt");  // hide our user interface that shows our A2HS button
-  a2hsBtn.style.display = 'none';
-  deferredPrompt.prompt();
-  deferredPrompt.userChoice.then(function (choiceResult) {
-    if (choiceResult.outcome === 'accepted') {
-      alert('User accepted the A2HS prompt');
-    } else {
-      alert('User dismissed the A2HS prompt');
-    }
-    deferredPrompt = null;
-  });
+  navigator.serviceWorker.register('sw.js').then(() => console.log("[SW] Is activated."));
 }
