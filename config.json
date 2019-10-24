@@ -47,25 +47,22 @@
   "portfolio": [
     {
       "thumbnail": "https://picsum.photos/500",
-      "title": "lorem",
+      "title": "lorem impsum",
       "tag": "Ui/Ux Designing",
       "color": "yellow",
+      "live": "https://google.com",
       "images": [
         {
-          "image": "https://i.hizliresim.com/1p3pMD.png",
-          "name": "Ürün Sayfası"
+          "image": "https://i.hizliresim.com/r0aGpP.png",
+          "name": "Anasayfa"
         },
         {
-          "image": "https://i.hizliresim.com/LvXv11.png",
-          "name": "Anasayfa Sayfası"
+          "image": "https://i.hizliresim.com/XbjZpD.png",
+          "name": "Anasayfa Menü"
         },
         {
-          "image": "https://i.hizliresim.com/1p3pMD.png",
-          "name": "Ürün Sayfası"
-        },
-        {
-          "image": "https://i.hizliresim.com/LvXv11.png",
-          "name": "Anasayfa Sayfası"
+          "image": "https://i.hizliresim.com/JVMjBn.png",
+          "name": "Ürün Listesi"
         }
       ]
     }

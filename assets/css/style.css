@@ -313,7 +313,7 @@ body {
     .view__footer-button {
       background-color: #10b683;
       border-radius: 100px;
-      color: #fff;
+      color: #fff !important;
       height: 38px;
       display: flex;
       justify-content: center;
@@ -327,7 +327,10 @@ body {
       border: 1px solid #2c3547;
       line-height: 1;
       outline: none !important;
-      cursor: pointer; }
+      cursor: pointer;
+      text-decoration: none !important; }
+      .view__footer-button\:blue {
+        background-color: #1059b6; }
       .view__footer-button svg {
         margin-right: 8px; }
   .view__nav-item {
@@ -424,4 +427,20 @@ body {
     .footer__copy {
       margin-bottom: 12px; }
     .footer__links a:first-child {
-      margin-left: 0; } }
+      margin-left: 0; }
+
+  .view__pages {
+    margin-bottom: 95px; }
+  .view__footer {
+    flex-direction: column;
+    align-items: unset; }
+    .view__footer-info {
+      flex-direction: unset;
+      justify-content: space-between;
+      width: 100%; }
+    .view__footer .d-flex {
+      width: 100%;
+      justify-content: space-between;
+      margin-top: 10px; }
+      .view__footer .d-flex a:first-child {
+        flex: 1; } }

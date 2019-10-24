@@ -23,6 +23,7 @@ const app = new Vue({
       this.viewActive = 0;
     },
     changeActive: function (action) {
+      window.scrollTo(0,0);
       if (action === 'left') {
         if (this.viewActive === 0) return false;
         this.viewActive -= 1

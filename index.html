@@ -95,12 +95,16 @@
               {{ this.viewActive + 1 }} of {{ this.view.images.length }} pages
             </div>
           </div>
-          <button class="view__footer-button"><svg width="16" height="12">
+          <div class="d-flex">
+            <a target="_blank" v-if="this.view.live" :href="this.view.live" class="view__footer-button view__footer-button:blue mr-2">Show Live</a>
+
+            <a target="_blank" :href="'https://wa.me/?text='+ this.view.title +' - ' + window.location.href" class="view__footer-button"><svg width="16" height="12">
               <g fill="none" fill-rule="evenodd">
                 <path d="M-1-3h18v18H-1z"></path>
                 <path d="M10 0l6 5.5-6 5.5V8c-4-.08-7.917 1.2-10 4 .833-4 4.333-8 10-9V0z" fill="#FFF"></path>
               </g>
-            </svg> Share</button>
+            </svg> Share</a>
+          </div>
         </div>
       </div>
     </div>

@@ -377,7 +377,7 @@ body {
     &-button {
       background-color: #10b683;
       border-radius: 100px;
-      color: #fff;
+      color: #fff !important;
       height: 38px;
       display: flex;
       justify-content: center;
@@ -392,7 +392,11 @@ body {
       line-height: 1;
       outline: none !important;
       cursor: pointer;
+      text-decoration: none !important;
 
+      &\:blue {
+        background-color: #1059b6;
+      }
       svg {
         margin-right: 8px;
       }
@@ -532,6 +536,30 @@ body {
     }
     &__links a:first-child {
       margin-left: 0;
+    }
+  }
+  .view {
+    &__pages {
+      margin-bottom: 95px;
+    }
+    &__footer {
+      flex-direction: column;
+      align-items: unset;
+
+      &-info {
+        flex-direction: unset;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .d-flex {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        a:first-child {
+          flex: 1;
+        }
+      }
     }
   }
 }
