@@ -33,10 +33,10 @@ const app = new Vue({
         this.viewActive += 1
       }
     },
-    close: function () {
+    close: function (url = true) {
       window.scrollTo(0, this.pageTop);
       this.view = false;
-      this.$router.push({query: {item: null}});
+      if (url) this.$router.push({});
     },
     url: function (string) {
       const a = 'àáâäæãåāăąçćčđďèéêëēėęěğǵḧıîïíīįìłḿñńǹňôöòóœøōõṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;';
@@ -53,6 +53,17 @@ const app = new Vue({
       if (event.keyCode === 37) that.changeActive('left');
       if (event.keyCode === 39) that.changeActive('right');
     });
+  },
+  watch: {
+    '$route' (to) {
+      if (to.fullPath === "/") this.close(false);
+      if (to.query.item) {
+        let isItem = this.config.portfolio.find(e => this.url(e.title) === to.query.item);
+        if (isItem) {
+          this.openItem(isItem, false);
+        }
+      }
+    }
   },
   beforeCreate() {
     axios.get('./config.json').then(r => {
