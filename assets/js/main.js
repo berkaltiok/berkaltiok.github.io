@@ -1,6 +1,6 @@
 const router = new VueRouter({
   mode: 'history',
-  base: '/Portfolio/',
+  // base: '/Portfolio/',
   routes: []
 });
 const app = new Vue({
