@@ -1,5 +1,6 @@
 const router = new VueRouter({
   mode: 'history',
+  base: '/Portfolio/',
   routes: []
 });
 const app = new Vue({
@@ -14,9 +15,10 @@ const app = new Vue({
     }
   },
   methods: {
-    openItem: function(item) {
+    openItem: function(item, url = true) {
       this.pageTop = window.pageYOffset || document.documentElement.scrollTop;
       window.scrollTo(0,0);
+      if (url) this.$router.push({query: {item: this.url(item.title)}});
       this.view = item;
       this.viewActive = 0;
     },
@@ -33,10 +35,11 @@ const app = new Vue({
     close: function () {
       window.scrollTo(0, this.pageTop);
       this.view = false;
+      this.$router.push({query: {item: null}});
     },
     url: function (string) {
-      const a = 'àáâäæãåāăąçćčđďèéêëēėęěğǵḧıîïíīįìłḿñńǹňôöòóœøōõṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;'
-      const b = 'aaaaaaaaaacccddeeeeeeeegghiiiiiiilmnnnnooooooooprrsssssttuuuuuuuuuwxyyzzz------'
+      const a = 'àáâäæãåāăąçćčđďèéêëēėęěğǵḧıîïíīįìłḿñńǹňôöòóœøōõṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;';
+      const b = 'aaaaaaaaaacccddeeeeeeeegghiiiiiiilmnnnnooooooooprrsssssttuuuuuuuuuwxyyzzz------';
       const p = new RegExp(a.split('').join('|'), 'g');
 
       return string.toString().toLowerCase().replace(/\s+/g, '-').replace(p, c => b.charAt(a.indexOf(c))).replace(/&/g, '-and-').replace(/[^\w\-]+/g, '').replace(/\-\-+/g, '-').replace(/^-+/, '').replace(/-+$/, '')
@@ -60,7 +63,7 @@ const app = new Vue({
       if (this.$route.query.item) {
         let isItem = this.config.portfolio.find(e => this.url(e.title) === this.$route.query.item);
         if (isItem) {
-          this.openItem(isItem);
+          this.openItem(isItem, false);
         }
       }
       this.load = true;
