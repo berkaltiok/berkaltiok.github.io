@@ -1,4 +1,9 @@
+const router = new VueRouter({
+  mode: 'history',
+  routes: []
+});
 const app = new Vue({
+  router,
   data() {
     return {
       load: false,
@@ -28,6 +33,13 @@ const app = new Vue({
     close: function () {
       window.scrollTo(0, this.pageTop);
       this.view = false;
+    },
+    url: function (string) {
+      const a = 'àáâäæãåāăąçćčđďèéêëēėęěğǵḧıîïíīįìłḿñńǹňôöòóœøōõṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;'
+      const b = 'aaaaaaaaaacccddeeeeeeeegghiiiiiiilmnnnnooooooooprrsssssttuuuuuuuuuwxyyzzz------'
+      const p = new RegExp(a.split('').join('|'), 'g');
+
+      return string.toString().toLowerCase().replace(/\s+/g, '-').replace(p, c => b.charAt(a.indexOf(c))).replace(/&/g, '-and-').replace(/[^\w\-]+/g, '').replace(/\-\-+/g, '-').replace(/^-+/, '').replace(/-+$/, '')
     }
   },
   mounted() {
@@ -45,6 +57,12 @@ const app = new Vue({
       document.title = this.config.name;
       $('meta[name="description"]').attr("content", this.config.description);
       $('link[rel="shortcut icon"], link[rel="apple-touch-icon"]').attr("href", this.config.icons[0].src);
+      if (this.$route.query.item) {
+        let isItem = this.config.portfolio.find(e => this.url(e.title) === this.$route.query.item);
+        if (isItem) {
+          this.openItem(isItem);
+        }
+      }
       this.load = true;
     });
   }
