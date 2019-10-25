@@ -97,7 +97,7 @@
             </div>
           </div>
           <div class="d-flex">
-            <a rel="noopener" aria-label="Show Live" target="_blank" v-if="this.view.live" :href="this.view.live" class="view__footer-button view__footer-button:blue mr-2">Show Live</a>
+            <a rel="noopener" aria-label="Show Live" target="_blank" v-if="this.view.live" :href="this.view.live + '?ref=' + window.location.hostname" class="view__footer-button view__footer-button:blue mr-2">Show Live</a>
             <a rel="noopener" aria-label="Whatsapp Share" target="_blank" :href="'http://api.whatsapp.com/send?text='+ this.view.title +' - ' + window.location.href" class="view__footer-button"><svg width="16" height="12">
               <g fill="none" fill-rule="evenodd">
                 <path d="M-1-3h18v18H-1z"></path>
