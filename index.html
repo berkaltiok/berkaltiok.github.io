@@ -33,7 +33,7 @@
           <div class="about__top">
             <img :src="this.config.about.top.avatar" alt="Photo" class="about__top-image">
             <div class="about__top-buttons">
-              <a rel="noopener" target="_blank" v-for="item in this.config.about.top.buttons" :href="item.url" :class="['about__top-button', 'about__top-button:'+item.color]">{{ item.text }}</a>
+              <a :aria-label="item.text + ' Button'" rel="noopener" target="_blank" v-for="item in this.config.about.top.buttons" :href="item.url" :class="['about__top-button', 'about__top-button:'+item.color]">{{ item.text }}</a>
             </div>
           </div>
           <div class="about__content">
@@ -42,7 +42,7 @@
             <div class="about__content-subtitle">{{ this.config.about.content.subtitle }}</div>
             <div class="about__content-info">{{ this.config.about.content.info }}</div>
             <div class="about__content-icons">
-              <a target="_blank" v-for="item in this.config.about.social" :href="item.url"><i :class="(item.type || 'fab')+' fa-'+item.icon"></i></a>
+              <a :aria-label="item.icon + ' Media'" rel="noopener" target="_blank" v-for="item in this.config.about.social" :href="item.url"><i :class="(item.type || 'fab')+' fa-'+item.icon"></i></a>
               <span></span>
             </div>
           </div>
@@ -63,9 +63,9 @@
         </div>
         <div class="footer">
           <div class="footer__copy">Copyright &copy; {{ new Date().getFullYear() }} <strong>{{ this.config.footer.copy }}</strong></div>
-          <div class="footer__love">We <span><i class="fas fa-heart"></i> love</span> <a target="_blank" href="https://vuejs.org">VueJS</a></div>
+          <div class="footer__love">We <span><i class="fas fa-heart"></i> love</span> <a aria-label="VueJS Project Site" rel="noopener" target="_blank" href="https://vuejs.org">VueJS</a></div>
           <div class="footer__links">
-            <a target="_blank" v-for="item in this.config.footer.links" :href="item.url">{{ item.text }}</a>
+            <a :aria-label="item.text + ' Link'" rel="noopener" target="_blank" v-for="item in this.config.footer.links" :href="item.url">{{ item.text }}</a>
           </div>
         </div>
       </div>
@@ -97,8 +97,8 @@
             </div>
           </div>
           <div class="d-flex">
-            <a target="_blank" v-if="this.view.live" :href="this.view.live" class="view__footer-button view__footer-button:blue mr-2">Show Live</a>
-            <a target="_blank" :href="'http://api.whatsapp.com/send?text='+ this.view.title +' - ' + window.location.href" class="view__footer-button"><svg width="16" height="12">
+            <a rel="noopener" aria-label="Show Live" target="_blank" v-if="this.view.live" :href="this.view.live" class="view__footer-button view__footer-button:blue mr-2">Show Live</a>
+            <a rel="noopener" aria-label="Whatsapp Share" target="_blank" :href="'http://api.whatsapp.com/send?text='+ this.view.title +' - ' + window.location.href" class="view__footer-button"><svg width="16" height="12">
               <g fill="none" fill-rule="evenodd">
                 <path d="M-1-3h18v18H-1z"></path>
                 <path d="M10 0l6 5.5-6 5.5V8c-4-.08-7.917 1.2-10 4 .833-4 4.333-8 10-9V0z" fill="#FFF"></path>
