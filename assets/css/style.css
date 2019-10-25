@@ -78,7 +78,7 @@ body {
       position: absolute;
       transform: rotate(-90deg);
       transform-origin: 0 0;
-      top: 42px;
+      top: 36px;
       left: -38px;
       user-select: none; }
     .about__content-title {
