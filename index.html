@@ -10,9 +10,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>Berk Altıok</title>
 
-    <meta name="description" content="">
+    <meta name="description" content=".">
     <link rel="shortcut icon" href="">
     <link rel="apple-touch-icon" href="">
+    <meta name="theme-color" content="#ffffff"/>
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +33,7 @@
           <div class="about__top">
             <img :src="this.config.about.top.avatar" alt="Photo" class="about__top-image">
             <div class="about__top-buttons">
-              <a target="_blank" v-for="item in this.config.about.top.buttons" :href="item.url" :class="['about__top-button', 'about__top-button:'+item.color]">{{ item.text }}</a>
+              <a rel="noopener" target="_blank" v-for="item in this.config.about.top.buttons" :href="item.url" :class="['about__top-button', 'about__top-button:'+item.color]">{{ item.text }}</a>
             </div>
           </div>
           <div class="about__content">

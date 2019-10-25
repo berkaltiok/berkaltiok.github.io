@@ -73,7 +73,7 @@ body {
       letter-spacing: 4px;
       font-size: 12px;
       line-height: 16px;
-      color: #979797;
+      color: #545454;
       font-weight: bolder;
       position: absolute;
       transform: rotate(-90deg);
@@ -131,7 +131,7 @@ body {
     letter-spacing: 4px;
     font-size: 12px;
     line-height: 16px;
-    color: #979797;
+    color: #545454;
     font-weight: bolder;
     position: absolute;
     transform: rotate(-90deg);
@@ -224,11 +224,12 @@ body {
     align-items: center;
     justify-content: center; }
     .footer__love span {
-      color: #f72848;
+      color: #b5001c;
       font-weight: 800;
       margin: 0 8px;
       display: inline-flex;
-      align-items: center; }
+      align-items: center;
+      opacity: 0.8; }
       .footer__love span i {
         font-size: 12px;
         margin-right: 3px; }
