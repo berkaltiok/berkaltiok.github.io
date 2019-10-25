@@ -424,13 +424,17 @@ body {
         color: #fff;
         font-size: 40px;
       }
+      svg {
+        height: 40px;
+        color: #fff;
+      }
     }
     &-left {
       left: 0;
       border-top-right-radius: 900px;
       border-bottom-right-radius: 900px;
 
-      i {
+      i, svg {
         margin-left: 17px;
       }
     }
@@ -440,7 +444,7 @@ body {
       border-bottom-left-radius: 900px;
       justify-content: flex-end;
 
-      i {
+      i, svg {
         margin-right: 17px;
       }
     }
