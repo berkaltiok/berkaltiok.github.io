@@ -29,12 +29,12 @@
         <svg height="60px" width="60px" version="1.1" viewBox="0 0 50 50" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><path d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z" fill="#000" transform="rotate(64.6404 25 25)"><animateTransform attributeName="transform" attributeType="xml" dur="0.6s" from="0 25 25" repeatCount="indefinite" to="360 25 25" type="rotate"></animateTransform></path></svg>
       </div>
       <div class="container main" v-if="load" v-show="!view">
-        <div class="about">
+        <header class="about">
           <div class="about__top">
             <img :src="this.config.about.top.avatar" alt="Photo" class="about__top-image">
-            <div class="about__top-buttons">
+            <nav class="about__top-buttons">
               <a :aria-label="item.text + ' Button'" rel="noopener" target="_blank" v-for="item in this.config.about.top.buttons" :href="item.url" :class="['about__top-button', 'about__top-button:'+item.color]">{{ item.text }}</a>
-            </div>
+            </nav>
           </div>
           <div class="about__content">
             <div class="about__content-name">BIO</div>
@@ -46,28 +46,28 @@
               <span></span>
             </div>
           </div>
-        </div>
-        <div class="portfolio">
+        </header>
+        <main class="portfolio">
           <div class="portfolio__name">Works</div>
           <div class="row">
             <div class="col-6 col-lg-4 col-md-6" @click="openItem(item)" v-for="(item, index) in this.config.portfolio">
-              <div class="portfolio__item">
+              <article class="portfolio__item">
                 <img :src="item.thumbnail" :alt="item.title">
                 <div class="portfolio__item-content">
                   <div :class="['portfolio__item-tag', 'portfolio__item-tag:' + item.color]">{{ item.tag }}</div>
                   <div class="portfolio__item-title">{{ item.title }}</div>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
-        </div>
-        <div class="footer">
+        </main>
+        <footer class="footer">
           <div class="footer__copy">Copyright &copy; {{ new Date().getFullYear() }} <strong>{{ this.config.footer.copy }}</strong></div>
           <div class="footer__love">We <span><i class="fas fa-heart"></i> love</span> <a aria-label="VueJS Project Site" rel="noopener" target="_blank" href="https://vuejs.org">VueJS</a></div>
           <div class="footer__links">
             <a :aria-label="item.text + ' Link'" rel="noopener" target="_blank" v-for="item in this.config.footer.links" :href="item.url">{{ item.text }}</a>
           </div>
-        </div>
+        </footer>
       </div>
       <div class="view" v-if="view" v-show="view" style="display: none;">
         <div class="view__close" @click="this.close"><i class="far fa-times"></i></div>
