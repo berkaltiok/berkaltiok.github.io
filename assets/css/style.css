@@ -285,8 +285,10 @@ body {
       opacity: .7; }
   .view__pages {
     margin-bottom: 68px; }
-    .view__pages-item img {
-      width: 100%; }
+    .view__pages-item {
+      user-select: none; }
+      .view__pages-item img {
+        width: 100%; }
   .view__footer {
     padding: 14px 24px;
     background: #15181f;
