@@ -50,7 +50,7 @@
       "title": "Lastikçim",
       "tag": "Front-End",
       "color": "yellow",
-      "live": "https://www.lastikcim.com.tr/",
+      "live": "https://tinyurl.com/lastikcim",
       "images": [
         {
           "image": "projects/lastikcim/1.png",
@@ -92,6 +92,7 @@
       "tag": "Front-End & Back-End",
       "color": "yellow",
       "live": "https://wplink.org",
+      "ref": true,
       "images": [
         {
           "image": "projects/wplink/1.png",
