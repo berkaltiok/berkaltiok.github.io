@@ -17,7 +17,7 @@
 
   "about": {
     "top": {
-      "avatar": "https://avatars0.githubusercontent.com/u/17373485",
+      "avatar": "assets/images/icon-512x512.png",
       "buttons": [
         {
           "url": "https://github.com/berkpw/berkpw.github.io",
@@ -46,23 +46,72 @@
   },
   "portfolio": [
     {
-      "thumbnail": "https://i.hizliresim.com/r0aGpP.png",
-      "title": "lorem impsum",
-      "tag": "Ui/Ux Designing",
+      "thumbnail": "projects/lastikcim/brand.png",
+      "title": "Lastikçim",
+      "tag": "Front-End",
       "color": "yellow",
-      "live": "https://google.com",
+      "live": "https://www.lastikcim.com.tr/",
       "images": [
         {
-          "image": "https://i.hizliresim.com/r0aGpP.png",
-          "name": "Anasayfa"
+          "image": "projects/lastikcim/1.png",
+          "name": "Home"
         },
         {
-          "image": "https://i.hizliresim.com/XbjZpD.png",
-          "name": "Anasayfa Menü"
+          "image": "projects/lastikcim/2.png",
+          "name": "Product Info"
         },
         {
-          "image": "https://i.hizliresim.com/JVMjBn.png",
-          "name": "Ürün Listesi"
+          "image": "projects/lastikcim/3.png",
+          "name": "Register"
+        },
+        {
+          "image": "projects/lastikcim/4.png",
+          "name": "Mounting Center"
+        }
+      ]
+    },
+    {
+      "thumbnail": "projects/totowin/brand.png",
+      "title": "TotoWin",
+      "tag": "Front-End",
+      "color": "yellow",
+      "images": [
+        {"image": "projects/totowin/1.png", "name": "Anasayfa"},
+        {"image": "projects/totowin/2.png", "name": "Spor"},
+        {"image": "projects/totowin/3.png", "name": "Canlı Spor"},
+        {"image": "projects/totowin/4.png", "name": "Slot"},
+        {"image": "projects/totowin/5.png", "name": "Canlı Casino"},
+        {"image": "projects/totowin/6.png", "name": "Promosyonlar"},
+        {"image": "projects/totowin/7.png", "name": "Kayıt Ol"},
+        {"image": "projects/totowin/8.png", "name": "Profil"}
+      ]
+    },
+    {
+      "thumbnail": "projects/wplink/brand.png",
+      "title": "WPLink",
+      "tag": "Front-End & Back-End",
+      "color": "yellow",
+      "live": "https://wplink.org",
+      "images": [
+        {
+          "image": "projects/wplink/1.png",
+          "name": "Home"
+        },
+        {
+          "image": "projects/wplink/2.png",
+          "name": "Login"
+        },
+        {
+          "image": "projects/wplink/3.png",
+          "name": "Register"
+        },
+        {
+          "image": "projects/wplink/4.png",
+          "name": "Profile"
+        },
+        {
+          "image": "projects/wplink/5.png",
+          "name": "Payment"
         }
       ]
     }
