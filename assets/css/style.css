@@ -141,6 +141,7 @@ body {
     user-select: none;
     text-transform: uppercase; }
   .portfolio__item {
+    user-select: none;
     cursor: pointer;
     position: relative;
     width: 100%;

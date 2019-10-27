@@ -115,6 +115,20 @@
           "name": "Payment"
         }
       ]
+    },
+    {
+      "thumbnail": "projects/digiturk/brand.png",
+      "title": "Digiturk Euro",
+      "tag": "Front-End",
+      "color": "yellow",
+      "images": [
+        {"image": "projects/digiturk/1.png", "name": "Anasayfa"},
+        {"image": "projects/digiturk/2.png", "name": "Paket Oluşturucu"},
+        {"image": "projects/digiturk/3.png", "name": "Ekipmanlar & Ürünler"},
+        {"image": "projects/digiturk/4.png", "name": "Sepet & Ödeme"},
+        {"image": "projects/digiturk/5.png", "name": "Kanal Listesi"},
+        {"image": "projects/digiturk/6.png", "name": "Yardım Merkezi"}
+      ]
     }
   ],
   "footer": {

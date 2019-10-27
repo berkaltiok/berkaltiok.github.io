@@ -166,6 +166,7 @@ body {
     text-transform: uppercase;
   }
   &__item {
+    user-select: none;
     cursor: pointer;
     position: relative;
     width: 100%;
