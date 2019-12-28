@@ -40,7 +40,7 @@
             <div class="about__content-name">BIO</div>
             <div class="about__content-title">{{ this.config.about.content.title }}</div>
             <div class="about__content-subtitle">{{ this.config.about.content.subtitle }}</div>
-            <div class="about__content-info">{{ this.config.about.content.info }}</div>
+            <!--<div class="about__content-info">{{ this.config.about.content.info }}</div>-->
             <div class="about__content-icons">
               <a :aria-label="item.icon + ' Media'" rel="noopener" target="_blank" v-for="item in this.config.about.social" :href="item.url + '?ref=' + window.location.hostname"><i :class="(item.type || 'fab')+' fa-'+item.icon"></i></a>
               <span></span>
