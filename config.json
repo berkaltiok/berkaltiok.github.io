@@ -33,9 +33,10 @@
     },
     "content": {
       "title": "I’m Berk,",
-      "subtitle": "Full Stack Developer, from Ankara.",
+      "subtitle": "Front End Developer, from Ankara.",
       "info": "Çizilmiş bir arayüz tasarımını kodlamaktan zevk alıyorum. Alanında önemli şirketlerden start-up projelerine kadar geniş bir müşteri yelpazesi için profesyonel kodlama hizmeti sunuyorum. Mobil, tarayıcı, performans odaklı arayüz kodlamada, birebir CSS dökümünde  ve bir çok FrontEnd konusunda uzmanım."
     },
+
     "social": [
       {"url": "https://berk.pw", "type": "fas", "icon": "rss"},
       {"url": "https://twitter.com/berkpw", "icon": "twitter"},
@@ -87,6 +88,35 @@
       ]
     },
     {
+      "thumbnail": "projects/forguard/brand.png",
+      "title": "ForGuard",
+      "tag": "Front-End",
+      "color": "yellow",
+      "live": "https://ikincieldeguven.com",
+      "images": [
+        {"image": "projects/forguard/1.png", "name": "Anasayfa"},
+        {"image": "projects/forguard/2.png", "name": "Hakkımızda"},
+        {"image": "projects/forguard/3.png", "name": "Aramıza Katıl"},
+        {"image": "projects/forguard/4.png", "name": "Giriş Yap"},
+        {"image": "projects/forguard/5.png", "name": "Profil Sayfası"},
+        {"image": "projects/forguard/6.png", "name": "Spariş Sayfası"}
+      ]
+    },
+    {
+      "thumbnail": "projects/digiturk/brand.png",
+      "title": "Digiturk Euro",
+      "tag": "Front-End",
+      "color": "yellow",
+      "images": [
+        {"image": "projects/digiturk/1.png", "name": "Anasayfa"},
+        {"image": "projects/digiturk/2.png", "name": "Paket Oluşturucu"},
+        {"image": "projects/digiturk/3.png", "name": "Ekipmanlar & Ürünler"},
+        {"image": "projects/digiturk/4.png", "name": "Sepet & Ödeme"},
+        {"image": "projects/digiturk/5.png", "name": "Kanal Listesi"},
+        {"image": "projects/digiturk/6.png", "name": "Yardım Merkezi"}
+      ]
+    },
+    {
       "thumbnail": "projects/wplink/brand.png",
       "title": "WPLink",
       "tag": "Front-End & Back-End",
@@ -114,20 +144,6 @@
           "image": "projects/wplink/5.png",
           "name": "Payment"
         }
-      ]
-    },
-    {
-      "thumbnail": "projects/digiturk/brand.png",
-      "title": "Digiturk Euro",
-      "tag": "Front-End",
-      "color": "yellow",
-      "images": [
-        {"image": "projects/digiturk/1.png", "name": "Anasayfa"},
-        {"image": "projects/digiturk/2.png", "name": "Paket Oluşturucu"},
-        {"image": "projects/digiturk/3.png", "name": "Ekipmanlar & Ürünler"},
-        {"image": "projects/digiturk/4.png", "name": "Sepet & Ödeme"},
-        {"image": "projects/digiturk/5.png", "name": "Kanal Listesi"},
-        {"image": "projects/digiturk/6.png", "name": "Yardım Merkezi"}
       ]
     }
   ],
