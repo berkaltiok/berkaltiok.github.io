@@ -1,6 +1,6 @@
 {
   "name": "Berk Altıok - Full Stack Developer",
-  "description": "Bu Berk kim? Neyin nesidir? Neler yapar? Hayatı nasıl? Hakkımda merak edilebilecek bir çok şeyin bu içi dolu turşucuk sayfada bulabilirsiniz.",
+  "description": "10 yılı aşkın sektörel deneyimimle bir çok projede yer aldım ve yaptım. Remote çalışma düzenim ve profesyonel iş anlayışım ile Front-End geliştiricilik yapmaktayım. Sizin de bir projeniz var ve kaliteli bir Front-End kodlaması istiyorsanız doğru adrestesiniz.",
   "short_name": "Berk Altıok",
   "start_url": "/",
   "display": "standalone",
@@ -53,22 +53,37 @@
       "color": "yellow",
       "live": "https://tinyurl.com/lastikcim",
       "images": [
-        {
-          "image": "projects/lastikcim/1.png",
-          "name": "Home"
-        },
-        {
-          "image": "projects/lastikcim/2.png",
-          "name": "Product Info"
-        },
-        {
-          "image": "projects/lastikcim/3.png",
-          "name": "Register"
-        },
-        {
-          "image": "projects/lastikcim/4.png",
-          "name": "Mounting Center"
-        }
+        {"image": "projects/lastikcim/1.png", "name": "Home"},
+        {"image": "projects/lastikcim/2.png", "name": "Product Info"},
+        {"image": "projects/lastikcim/3.png", "name": "Register"},
+        {"image": "projects/lastikcim/4.png", "name": "Mounting Center"}
+      ]
+    },
+    {
+      "thumbnail": "projects/eloboost/brand.png",
+      "title": "EloBoost Türkiye",
+      "tag": "Front-End",
+      "color": "yellow",
+      "images": [
+        {"image": "projects/eloboost/1.png", "name": "Anasayfa"},
+        {"image": "projects/eloboost/2.png", "name": "Boost Paketleri"},
+        {"image": "projects/eloboost/3.png", "name": "Müşteri Yorumları"},
+        {"image": "projects/eloboost/4.png", "name": "Hesap Ayarları"}
+      ]
+    },
+    {
+      "thumbnail": "projects/forguard/brand.png",
+      "title": "ForGuard",
+      "tag": "Front-End",
+      "color": "yellow",
+      "live": "https://ikincieldeguven.com",
+      "images": [
+        {"image": "projects/forguard/1.png", "name": "Anasayfa"},
+        {"image": "projects/forguard/2.png", "name": "Hakkımızda"},
+        {"image": "projects/forguard/3.png", "name": "Aramıza Katıl"},
+        {"image": "projects/forguard/4.png", "name": "Giriş Yap"},
+        {"image": "projects/forguard/5.png", "name": "Profil Sayfası"},
+        {"image": "projects/forguard/6.png", "name": "Spariş Sayfası"}
       ]
     },
     {
@@ -85,21 +100,6 @@
         {"image": "projects/totowin/6.png", "name": "Promosyonlar"},
         {"image": "projects/totowin/7.png", "name": "Kayıt Ol"},
         {"image": "projects/totowin/8.png", "name": "Profil"}
-      ]
-    },
-    {
-      "thumbnail": "projects/forguard/brand.png",
-      "title": "ForGuard",
-      "tag": "Front-End",
-      "color": "yellow",
-      "live": "https://ikincieldeguven.com",
-      "images": [
-        {"image": "projects/forguard/1.png", "name": "Anasayfa"},
-        {"image": "projects/forguard/2.png", "name": "Hakkımızda"},
-        {"image": "projects/forguard/3.png", "name": "Aramıza Katıl"},
-        {"image": "projects/forguard/4.png", "name": "Giriş Yap"},
-        {"image": "projects/forguard/5.png", "name": "Profil Sayfası"},
-        {"image": "projects/forguard/6.png", "name": "Spariş Sayfası"}
       ]
     },
     {
