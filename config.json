@@ -59,6 +59,20 @@
       ]
     },
     {
+      "thumbnail": "projects/cbl/brand.png",
+      "title": "CBL",
+      "tag": "Front-End",
+      "color": "yellow",
+      "live": "https://tinyurl.com/cblcomtr",
+      "images": [
+        {"image": "projects/cbl/1.png", "name": "Anasayfa"},
+        {"image": "projects/cbl/2.png", "name": "Fikstür"},
+        {"image": "projects/cbl/3.png", "name": "Takımlar"},
+        {"image": "projects/cbl/4.png", "name": "Takım Detay"},
+        {"image": "projects/cbl/5.png", "name": "Videolar"}
+      ]
+    },
+    {
       "thumbnail": "projects/eloboost/brand.png",
       "title": "EloBoost Türkiye",
       "tag": "Front-End",
