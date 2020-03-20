@@ -193,7 +193,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      padding: 40px; }
+      padding: 36px 34px; }
     .portfolio__item-title {
       font-size: 28px;
       color: #fff;
