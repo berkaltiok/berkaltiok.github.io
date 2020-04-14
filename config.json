@@ -117,6 +117,21 @@
       ]
     },
     {
+      "thumbnail": "projects/sosyalmarket/brand.png",
+      "title": "Sosyal Market",
+      "tag": "Front-End",
+      "color": "yellow",
+      "live": "https://sosyal.market",
+      "ref": true,
+      "images": [
+        {"image": "projects/sosyalmarket/1.png", "name": "Anasayfa"},
+        {"image": "projects/sosyalmarket/2.png", "name": "Kontrol Paneli"},
+        {"image": "projects/sosyalmarket/3.png", "name": "Fiyat Listesi"},
+        {"image": "projects/sosyalmarket/4.png", "name": "Spariş Listesi"},
+        {"image": "projects/sosyalmarket/5.png", "name": "Destek"}
+      ]
+    },
+    {
       "thumbnail": "projects/digiturk/brand.png",
       "title": "Digiturk Euro",
       "tag": "Front-End",
