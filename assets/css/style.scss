@@ -291,7 +291,7 @@ body {
       text-decoration: none;
       outline: none;
       transition: all .4s;
-      
+
       &:hover {
         color: #000;
       }
@@ -311,7 +311,7 @@ body {
   }
 }
 .view {
-  height: 100vh;
+  //height: 100vh;
   width: 100%;
   background: #eee;
   z-index: 2;
@@ -342,10 +342,11 @@ body {
     margin-bottom: 68px;
 
     &-item {
+      text-align: center;
       user-select: none;
 
       img {
-        width: 100%;
+        max-width: 100%;
       }
     }
   }
@@ -535,7 +536,7 @@ body {
   .footer {
     flex-direction: column;
     padding-bottom: 20px;
-    
+
     &__love {
       display: none;
     }
