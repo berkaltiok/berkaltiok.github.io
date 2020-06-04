@@ -46,19 +46,6 @@
   },
   "portfolio": [
     {
-      "thumbnail": "projects/lastikcim/brand.png",
-      "title": "Lastikçim",
-      "tag": "Front-End",
-      "color": "yellow",
-      "live": "https://tinyurl.com/lastikcim",
-      "images": [
-        {"image": "projects/lastikcim/1.png", "name": "Home"},
-        {"image": "projects/lastikcim/2.png", "name": "Product Info"},
-        {"image": "projects/lastikcim/3.png", "name": "Register"},
-        {"image": "projects/lastikcim/4.png", "name": "Mounting Center"}
-      ]
-    },
-    {
       "thumbnail": "projects/cbl/brand.png",
       "title": "CBL",
       "tag": "Front-End",
