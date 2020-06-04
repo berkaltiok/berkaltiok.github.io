@@ -196,6 +196,7 @@ body {
     }
     &-tag {
       display: inline-flex;
+      width: -moz-fit-content;
       width: fit-content;
       font-size: 14px;
       border-radius: 100px;
