@@ -134,6 +134,21 @@
       ]
     },
     {
+      "thumbnail": "projects/iptvsatis/brand.png",
+      "title": "IPTVSatış",
+      "tag": "Front-End",
+      "color": "yellow",
+      "images": [
+        {"image": "projects/iptvsatis/1.png", "name": "Kontrol Paneli"},
+        {"image": "projects/iptvsatis/2.png", "name": "Bakiye Yükleme"},
+        {"image": "projects/iptvsatis/3.png", "name": "Paket Listesi"},
+        {"image": "projects/iptvsatis/4.png", "name": "Paket Ayarları"},
+        {"image": "projects/iptvsatis/5.png", "name": "Uygulamalar"},
+        {"image": "projects/iptvsatis/6.png", "name": "Kurulum"},
+        {"image": "projects/iptvsatis/7.png", "name": "Giriş"}
+      ]
+    },
+    {
       "thumbnail": "projects/digiturk/brand.png",
       "title": "Digiturk Euro",
       "tag": "Front-End",
@@ -155,26 +170,11 @@
       "live": "https://wplink.org",
       "ref": true,
       "images": [
-        {
-          "image": "projects/wplink/1.png",
-          "name": "Home"
-        },
-        {
-          "image": "projects/wplink/2.png",
-          "name": "Login"
-        },
-        {
-          "image": "projects/wplink/3.png",
-          "name": "Register"
-        },
-        {
-          "image": "projects/wplink/4.png",
-          "name": "Profile"
-        },
-        {
-          "image": "projects/wplink/5.png",
-          "name": "Payment"
-        }
+        {"image": "projects/wplink/1.png", "name": "Home"},
+        {"image": "projects/wplink/2.png", "name": "Login"},
+        {"image": "projects/wplink/3.png", "name": "Register"},
+        {"image": "projects/wplink/4.png", "name": "Profile"},
+        {"image": "projects/wplink/5.png", "name": "Payment"}
       ]
     }
   ],
