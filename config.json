@@ -9,14 +9,14 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "assets/images/icon-512x512.png",
-      "sizes": "512x512",
+      "src": "https://avatars2.githubusercontent.com/u/17373485",
+      "sizes": "460x460",
       "type": "image/png"
     }
   ],
   "about": {
     "top": {
-      "avatar": "assets/images/icon-512x512.png",
+      "avatar": "https://avatars2.githubusercontent.com/u/17373485",
       "buttons": [
         {
           "url": "https://github.com/berkaltiok/berkaltiok.github.io",
