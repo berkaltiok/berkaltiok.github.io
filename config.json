@@ -88,6 +88,18 @@
       ]
     },
     {
+      "thumbnail": "projects/lastik/brand.png",
+      "title": "Lastik",
+      "tag": "Front-End",
+      "color": "yellow",
+      "images": [
+        {"image": "projects/lastik/1.png", "name": "Anasayfa"},
+        {"image": "projects/lastik/2.png", "name": "Ürün Sayfası"},
+        {"image": "projects/lastik/3.png", "name": "Kayıt Sayfası"},
+        {"image": "projects/lastik/4.png", "name": "Mounting Center"}
+      ]
+    },
+    {
       "thumbnail": "projects/forguard/brand.png",
       "title": "ForGuard",
       "tag": "Front-End",
