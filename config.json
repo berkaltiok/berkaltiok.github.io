@@ -134,21 +134,6 @@
       ]
     },
     {
-      "thumbnail": "projects/iptvsatis/brand.png",
-      "title": "IPTVSatış",
-      "tag": "Front-End",
-      "color": "yellow",
-      "images": [
-        {"image": "projects/iptvsatis/1.png", "name": "Kontrol Paneli"},
-        {"image": "projects/iptvsatis/2.png", "name": "Bakiye Yükleme"},
-        {"image": "projects/iptvsatis/3.png", "name": "Paket Listesi"},
-        {"image": "projects/iptvsatis/4.png", "name": "Paket Ayarları"},
-        {"image": "projects/iptvsatis/5.png", "name": "Uygulamalar"},
-        {"image": "projects/iptvsatis/6.png", "name": "Kurulum"},
-        {"image": "projects/iptvsatis/7.png", "name": "Giriş"}
-      ]
-    },
-    {
       "thumbnail": "projects/lastik/brand.png",
       "title": "Lastik",
       "tag": "Front-End",
