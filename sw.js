@@ -1,11 +1,11 @@
-const cacheName = 'portfolio-pwa';
+const cacheName = 'portfolio';
 const filesToCache = [
   'index.html',
   'assets/css/bootstrap.min.css',
   'assets/css/fontawesome.min.css',
   'assets/css/style.css',
   'assets/js/bootstrap.bundle.min.js',
-  'assets/js/jquery-3.4.1.min.js',
+  'assets/js/jquery.min.js',
   'assets/js/main.js'
 ];
 
