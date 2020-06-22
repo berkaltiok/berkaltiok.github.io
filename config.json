@@ -37,12 +37,11 @@
     },
 
     "social": [
-      {"url": "https://berk.pw", "type": "fas", "icon": "rss"},
+      {"url": "https://medium.com/berkaltiok", "icon": "medium-m"},
       {"url": "https://twitter.com/berkpw", "icon": "twitter"},
       {"url": "https://github.com/berkaltiok", "icon": "github"},
       {"url": "https://instagram.com/berk.pw", "icon": "instagram"},
-      {"url": "https://behance.net/berkaltiok", "icon": "behance"},
-      {"url": "https://medium.com/berkaltiok", "icon": "medium-m"}
+      {"url": "https://behance.net/berkaltiok", "icon": "behance"}
     ]
   },
   "portfolio": [
