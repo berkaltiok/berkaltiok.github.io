@@ -60,6 +60,18 @@
       ]
     },
     {
+      "thumbnail": "projects/adt/brand.png",
+      "title": "ADT Bilişim",
+      "tag": "Front-End",
+      "color": "yellow",
+      "images": [
+        {"image": "projects/adt/1.png", "name": "Anasayfa"},
+        {"image": "projects/adt/2.png", "name": "E-Ticaret Paketleri"},
+        {"image": "projects/adt/3.png", "name": "E-Ticaret Özellikleri"},
+        {"image": "projects/adt/4.png", "name": "Tasarım Hizmeti"}
+      ]
+    },
+    {
       "thumbnail": "projects/gezgin724/brand.png",
       "title": "Gezgin 7/24",
       "tag": "Front-End",
