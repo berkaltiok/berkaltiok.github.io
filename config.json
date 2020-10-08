@@ -64,6 +64,7 @@
       "title": "ADT Bilişim",
       "tag": "Front-End",
       "color": "yellow",
+      "live": "https://www.adtbilisim.com.tr/",
       "images": [
         {"image": "projects/adt/1.png", "name": "Anasayfa"},
         {"image": "projects/adt/2.png", "name": "E-Ticaret Paketleri"},
