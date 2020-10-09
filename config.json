@@ -92,7 +92,6 @@
       "title": "EloBoost Türkiye",
       "tag": "Front-End",
       "color": "yellow",
-      "live": "https://eloboosturkiye.com",
       "images": [
         {"image": "projects/eloboost/1.png", "name": "Anasayfa"},
         {"image": "projects/eloboost/2.png", "name": "Boost Paketleri"},
