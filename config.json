@@ -73,18 +73,18 @@
       ]
     },
     {
-      "thumbnail": "projects/gezgin724/brand.png",
-      "title": "Gezgin 7/24",
+      "thumbnail": "projects/html5game/brand.png",
+      "title": "html5game",
       "tag": "Front-End",
       "color": "yellow",
       "images": [
-        {"image": "projects/gezgin724/1.png", "name": "Anasayfa"},
-        {"image": "projects/gezgin724/2.png", "name": "Arama Sonucu"},
-        {"image": "projects/gezgin724/3.png", "name": "Araç Detayı"},
-        {"image": "projects/gezgin724/4.png", "name": "Sürücü Bilgileri"},
-        {"image": "projects/gezgin724/5.png", "name": "Giriş Yap"},
-        {"image": "projects/gezgin724/6.png", "name": "Üye Bilgileri"},
-        {"image": "projects/gezgin724/7.png", "name": "Rezervasyon Geçmişi"}
+        {"image": "projects/html5game/1.png", "name": "Anasayfa"},
+        {"image": "projects/html5game/2.png", "name": "Geliştirici Başvurusu"},
+        {"image": "projects/html5game/3.png", "name": "Yayınlayıcı Başvurusu"},
+        {"image": "projects/html5game/4.png", "name": "Oyun Listesi"},
+        {"image": "projects/html5game/5.png", "name": "Oyun Detayları"},
+        {"image": "projects/html5game/6.png", "name": "Giriş Yap"},
+        {"image": "projects/html5game/7.png", "name": "Kayıt Ol"}
       ]
     },
     {
@@ -100,18 +100,18 @@
       ]
     },
     {
-      "thumbnail": "projects/forguard/brand.png",
-      "title": "ForGuard",
+      "thumbnail": "projects/gezgin724/brand.png",
+      "title": "Gezgin 7/24",
       "tag": "Front-End",
       "color": "yellow",
-      "live": "https://ikincieldeguven.com",
       "images": [
-        {"image": "projects/forguard/1.png", "name": "Anasayfa"},
-        {"image": "projects/forguard/2.png", "name": "Hakkımızda"},
-        {"image": "projects/forguard/3.png", "name": "Aramıza Katıl"},
-        {"image": "projects/forguard/4.png", "name": "Giriş Yap"},
-        {"image": "projects/forguard/5.png", "name": "Profil Sayfası"},
-        {"image": "projects/forguard/6.png", "name": "Spariş Sayfası"}
+        {"image": "projects/gezgin724/1.png", "name": "Anasayfa"},
+        {"image": "projects/gezgin724/2.png", "name": "Arama Sonucu"},
+        {"image": "projects/gezgin724/3.png", "name": "Araç Detayı"},
+        {"image": "projects/gezgin724/4.png", "name": "Sürücü Bilgileri"},
+        {"image": "projects/gezgin724/5.png", "name": "Giriş Yap"},
+        {"image": "projects/gezgin724/6.png", "name": "Üye Bilgileri"},
+        {"image": "projects/gezgin724/7.png", "name": "Rezervasyon Geçmişi"}
       ]
     },
     {
@@ -128,6 +128,21 @@
         {"image": "projects/totowin/6.png", "name": "Promosyonlar"},
         {"image": "projects/totowin/7.png", "name": "Kayıt Ol"},
         {"image": "projects/totowin/8.png", "name": "Profil"}
+      ]
+    },
+    {
+      "thumbnail": "projects/forguard/brand.png",
+      "title": "ForGuard",
+      "tag": "Front-End",
+      "color": "yellow",
+      "live": "https://ikincieldeguven.com",
+      "images": [
+        {"image": "projects/forguard/1.png", "name": "Anasayfa"},
+        {"image": "projects/forguard/2.png", "name": "Hakkımızda"},
+        {"image": "projects/forguard/3.png", "name": "Aramıza Katıl"},
+        {"image": "projects/forguard/4.png", "name": "Giriş Yap"},
+        {"image": "projects/forguard/5.png", "name": "Profil Sayfası"},
+        {"image": "projects/forguard/6.png", "name": "Spariş Sayfası"}
       ]
     },
     {
