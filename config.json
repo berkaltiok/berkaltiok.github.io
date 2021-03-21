@@ -60,16 +60,18 @@
       ]
     },
     {
-      "thumbnail": "projects/adt/brand.png",
-      "title": "ADT Bilişim",
+      "thumbnail": "projects/jemars/brand.png",
+      "title": "Jemars Hosting",
       "tag": "Front-End",
       "color": "yellow",
-      "live": "https://www.adtbilisim.com.tr/",
       "images": [
-        {"image": "projects/adt/1.png", "name": "Anasayfa"},
-        {"image": "projects/adt/2.png", "name": "E-Ticaret Paketleri"},
-        {"image": "projects/adt/3.png", "name": "E-Ticaret Özellikleri"},
-        {"image": "projects/adt/4.png", "name": "Tasarım Hizmeti"}
+        {"image": "projects/jemars/1.png", "name": "Anasayfa"},
+        {"image": "projects/jemars/2.png", "name": "Sanal Sunucu"},
+        {"image": "projects/jemars/3.png", "name": "Alan Adları"},
+        {"image": "projects/jemars/4.png", "name": "Kurumsal E-Posta"},
+        {"image": "projects/jemars/5.png", "name": "Sunucu Barındırma"},
+        {"image": "projects/jemars/6.png", "name": "Hakkında"},
+        {"image": "projects/jemars/7.png", "name": "Giriş Yap"}
       ]
     },
     {
@@ -130,6 +132,19 @@
         {"image": "projects/totowin/6.png", "name": "Promosyonlar"},
         {"image": "projects/totowin/7.png", "name": "Kayıt Ol"},
         {"image": "projects/totowin/8.png", "name": "Profil"}
+      ]
+    },
+    {
+      "thumbnail": "projects/adt/brand.png",
+      "title": "ADT Bilişim",
+      "tag": "Front-End",
+      "color": "yellow",
+      "live": "https://www.adtbilisim.com.tr/",
+      "images": [
+        {"image": "projects/adt/1.png", "name": "Anasayfa"},
+        {"image": "projects/adt/2.png", "name": "E-Ticaret Paketleri"},
+        {"image": "projects/adt/3.png", "name": "E-Ticaret Özellikleri"},
+        {"image": "projects/adt/4.png", "name": "Tasarım Hizmeti"}
       ]
     },
     {
