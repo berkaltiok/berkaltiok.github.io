@@ -244,6 +244,17 @@
         {"image": "projects/wplink/4.png", "name": "Profile"},
         {"image": "projects/wplink/5.png", "name": "Payment"}
       ]
+    },
+    {
+      "thumbnail": "projects/forex/brand.png",
+      "title": "Forex",
+      "tag": "Front-End",
+      "color": "yellow",
+      "ref": true,
+      "images": [
+        {"image": "projects/forex/1.png", "name": "Anasayfa"},
+        {"image": "projects/forex/2.png", "name": "Popup"}
+      ]
     }
   ],
   "footer": {
