@@ -90,20 +90,6 @@
       ]
     },
     {
-      "thumbnail": "projects/unicorn/brand.png",
-      "title": "Unicorn",
-      "tag": "Front-End",
-      "color": "yellow",
-      "images": [
-        {"image": "projects/unicorn/1.png", "name": "Anasayfa"},
-        {"image": "projects/unicorn/2.png", "name": "Oyun Detayı"},
-        {"image": "projects/unicorn/3.png", "name": "Liste"},
-        {"image": "projects/unicorn/4.png", "name": "Profil"},
-        {"image": "projects/unicorn/5.png", "name": "Sohbet Odası"},
-        {"image": "projects/unicorn/6.png", "name": "Giriş Yap"}
-      ]
-    },
-    {
       "thumbnail": "projects/gezgin724/brand.png",
       "title": "Gezgin 7/24",
       "tag": "Front-End",
