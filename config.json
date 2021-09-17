@@ -121,6 +121,20 @@
       ]
     },
     {
+      "thumbnail": "projects/deepfit/brand.png",
+      "title": "DeepFit",
+      "tag": "Front-End",
+      "color": "yellow",
+      "images": [
+        {"image": "projects/deepfit/1.png", "name": "Anasayfa"},
+        {"image": "projects/deepfit/2.png", "name": "Şube Listesi"},
+        {"image": "projects/deepfit/3.png", "name": "Şube Detay"},
+        {"image": "projects/deepfit/4.png", "name": "Giriş Yap"},
+        {"image": "projects/deepfit/5.png", "name": "Üye Detay"},
+        {"image": "projects/deepfit/6.png", "name": "Kullanıcı Paneli"}
+      ]
+    },
+    {
       "thumbnail": "projects/massping/brand.png",
       "title": "Massping",
       "tag": "Front-End",
