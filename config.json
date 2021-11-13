@@ -64,6 +64,7 @@
       "title": "Jemars Hosting",
       "tag": "Front-End",
       "color": "yellow",
+      "live": "https://jemars.com/",
       "images": [
         {"image": "projects/jemars/1.png", "name": "Anasayfa"},
         {"image": "projects/jemars/2.png", "name": "Sanal Sunucu"},
